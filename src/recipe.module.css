@@ -1,0 +1,31 @@
+.recipe{
+    border-radius: 20px;
+    border: 2px solid lightcyan;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    align-items: center;
+    min-width: 40%;
+}
+
+.title {
+    color: #434;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 10px;
+    background: #FEE;
+    border-radius: 30px
+}
+
+.ingredient {
+    color: #434;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: medium;
+}
+
+.image {
+    border-radius: 10%;
+    border: 4px solid whitesmoke;
+}
